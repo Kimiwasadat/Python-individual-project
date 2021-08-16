@@ -1,0 +1,18 @@
+# Python-individual-project
+Hello, if you're reading this then two of the following things have happened:
+A) The code doesn't work properly (Mainly because of the way you executed the code)
+OR 
+B)You're reading this because you're smart and know not to run a strangers code before knowing what it does (or something else)
+Anyway to run the code as efficiently as possible, please do the following:
+
+First:
+Run your IDE, or in your case Visual Studio Code, with the administrator priveledeges so that the code can run properly. 
+The code NEEDS to be run this way so that it can access and modify the proper files(in this case the host file)
+Second:
+The code is counting the time a few seconds ahead than the time on the computer. 
+So to make the code work efficiently, try to wait until the minute that you specified on the code is the same with the minute on your computer and then try to quit and let the code run
+
+Lastly: 
+Please refrain from opening browsers like chrome when the code starts running, as that can mess up the functionality of the program.
+
+Thank you for reading this and I hope you like the code!
