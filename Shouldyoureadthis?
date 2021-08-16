@@ -16,3 +16,33 @@ Lastly:
 Please refrain from opening browsers like chrome when the code starts running, as that can mess up the functionality of the program.
 
 Thank you for reading this and I hope you like the code!
+___________________________________________________________________________________________________________________________________________________________________________________
+
+Here are the instructions on how to use the program
+
+When you start the program the first thing that you'll see is the website blocking section. Enter the link of the website you wish to block(example: "www.github.com") and then press enter to confirm your changes.
+The Next section is the start and stop time sections. Here is where you'll place the start and ending times. Remember to signify whether the time is in AM or PM.
+When you are finish with putting in the time, click submit so that the information can be stored
+
+The Last section is the application blocker section, where you can identify exactly which site you would like to keep active. 
+To utilize this feature, make sure to put in the exact name of the program you want to keep active and then press "Add programs". 
+PLEASE make sure to erase what you put in the input area first before you add your next program. Repeat this so that the program can record everything in the text input properly.
+
+Finally click the quit button and then quit the application to start the loop.
+You'll hear a beep indicating the program has started. 
+(if you hear multiple beeps, that means that you entered the stop time incorrectly. 
+Quit the program and complete the steps all over again, while keeping the second rule in mind)
+__________________________________________________________________________________________________________________________________________________________________________________________
+Functionality
+The code will input everthing into a seperate file first.
+Then, based on whether the time condtions are met, the program will add the websites into the host file, with the host file before it. 
+Then the program will check the sites that are active, and it will check if those application are in the list with the sites that are supposed to be unblocked. 
+If the condition is true, then the site will not be closed. 
+However if the condition is met, than the application will be closed.
+Once the specific time is reached, the program will again open the host file and check if the sites that are in this file match with the sites in the seperate website file. 
+If this is true than the website will remove that file from the host file.
+Then there will be two beeps which will indicate that the program is complete
+
+Thank you agian for reading through this file, and if there is any issues, please feel free to contact me about them and I will try to get them resolved asap
+
+
