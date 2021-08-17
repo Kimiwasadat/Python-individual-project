@@ -241,7 +241,9 @@ def qut():
 
 blockbutton = Button(win, text="Eradicate", font= "Galano 18", pady=3, command= Blocker ,width = 10, bg = '#42ff00', activebackground = 'red').place(x=210, y=300)
 quitbutton = Button(win,text="Quit",font="Galano 15", pady=5, width = 10, bg = 'red', command= qut).place(x=5 , y=850)
-#main Functions
+
+
+#main Functions for blocking and unblocking websites and programs
 def application_killer():
     global bot
     bot = 0
@@ -340,7 +342,7 @@ def block_function():
                     winsound.Beep(frequency, duration)
                     quit()
 
-
+#Main loop for the tkinter window
 while aloop is True:
     if main_loop == True:
         win.mainloop()
