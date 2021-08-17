@@ -11,6 +11,8 @@ The code NEEDS to be run this way so that it can access and modify the proper fi
 Second:
 The code is counting the time a few seconds ahead than the time on the computer. 
 So to make the code work efficiently, try to wait until the minute that you specified on the code is the same with the minute on your computer and then try to quit and let the code run
+Third:
+Unfortunately, this code only functions on windows and not on a mac. Sorry for the inconvienience :(
 
 Lastly: 
 Please refrain from opening browsers like chrome when the code starts running, as that can mess up the functionality of the program.
